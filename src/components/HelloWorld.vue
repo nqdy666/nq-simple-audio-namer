@@ -13,9 +13,6 @@ const count = ref(0)
     Hello world!
   </h1>
 
-  <el-button type="primary">我是 ElButton</el-button>
-  <el-input></el-input>
-
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
     <p>

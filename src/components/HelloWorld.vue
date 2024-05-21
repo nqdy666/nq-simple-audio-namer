@@ -9,6 +9,13 @@ const count = ref(0)
 <template>
   <h1>{{ msg }}</h1>
 
+  <h1 class="text-3xl underline">
+    Hello world!
+  </h1>
+
+  <el-button type="primary">我是 ElButton</el-button>
+  <el-input></el-input>
+
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
     <p>

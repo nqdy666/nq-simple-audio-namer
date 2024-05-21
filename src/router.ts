@@ -2,9 +2,17 @@ import { createMemoryHistory, createRouter } from 'vue-router'
 
 import HomeView from './views/HomeView/HomeView.vue'
 import AboutView from './views/AboutView/AboutView.vue'
+import Renamer from './views/Renamer/Renamer.vue'
 
 const routes = [
-  { path: '/', component: HomeView },
+  { 
+    path: '/',
+    component: HomeView,
+    children: [{
+      path: '',
+      component: Renamer,
+    }]
+  },
   { path: '/about', component: AboutView },
 ]
 

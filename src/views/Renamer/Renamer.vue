@@ -1,8 +1,9 @@
-<script setup lang="ts">
+1<script setup lang="ts">
+
 </script>
 
 <template>
-  <RouterView />
+  <h1>开始123</h1>
 </template>
 
 <style scoped>
